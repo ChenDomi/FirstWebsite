@@ -1,0 +1,178 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    background-color: #cafdff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 16px;
+}
+
+a{
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul
+{
+    display:flex;
+}
+
+li
+{
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.nav_logo{
+    width: 400px;
+}
+
+.nav__container
+{
+    display: flex;
+}
+
+
+.nav__link
+{
+    padding-left: 16px;
+}
+
+header{
+    background-color: #eadcff;
+    display: flex;
+    height: calc(100vh - 50px);
+    padding: 24px;
+}
+
+.header_container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+h1{
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.subheader{
+    font-size: 50px;
+    margin: 16px 0 24px 0;
+}
+
+button{
+    border: none;
+    color: white;
+    background-color: #05c7cf;
+    width: 200px;
+    height: 50px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#about, footer{
+    padding: 48px 0;
+    background-color: #f8ffdc ;
+}
+
+.section__description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+
+.para__wrapper{
+    width:60%;
+}
+
+.para__spacing{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+#about__pic{
+    margin-left: 10px;
+}
+
+.discord__container{
+    display: flex;
+}
+
+#discord{
+    background-color: #cefeff;
+}
+
+#contact{
+    background-color: #dce9ff;
+}
+
+form{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input,textarea{
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo{
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer__links{
+    margin-bottom: 32px;
+}
+
+.footer__link{
+    padding: 0 16px;
+}
+
+@media(max-width: 728px)
+{
+    .row{
+        flex-direction: column;
+    }
+
+    h1{
+        text-align: center;
+    }
+}
+
